@@ -1,15 +1,11 @@
-import React,{useState} from 'react';
-
+import React from 'react';
+import logo from './logo.svg';
 import Home from './views/Home';
 import './App.css';
 
 function App() {
-    const [loaded , setLoaded] = useState(false);
-
-
   return (
     <div className="App">
-        {!loaded }
      <Home />
     </div>
   );

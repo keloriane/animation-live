@@ -1,4 +1,5 @@
 .App{
+  background-color: #131636;
 
 
     width: 100vw;
@@ -7,14 +8,13 @@
 }
 
 #root{
-
+  
     width: 100vw;
     height:100%;
 
 }
 
 body{
-    background-color: #fff;
   width: 100%;
 height: 100vh;
 }

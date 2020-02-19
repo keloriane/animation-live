@@ -1,0 +1,49 @@
+.title{
+    display: flex;
+    background-color: #fff;
+    width: 440px;
+    
+    .square{
+        width: 97px;
+        height: 119px;
+    
+        
+        .typo{
+        
+            h3{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 75px;
+                line-height: 99px;
+                text-align: center;
+                mix-blend-mode: difference;
+                &.dot{
+                    color: #FD904A;
+                }
+            }
+        }
+
+    }
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.wrapper{
+    overflow: hidden;
+}
+.main-home{
+    width: 100vw;
+    height:100%;
+}
+
+.title-background{
+    position: absolute;
+    background-color: #fff;
+    height: 106px;
+    width: 510px;
+}
+
+.letter-title{
+    position: absolute;
+}
