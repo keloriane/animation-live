@@ -1,5 +1,4 @@
 import React,{useEffect} from 'react';
-import Nav from './../components/Nav/Nav';
 import "./assets/Home.scss";
 import gsap from 'gsap';
 import Board from './../components/Board/Board';
@@ -11,7 +10,7 @@ const Home = () => {
     return (
         <div id="main-home">
             <Cursor/>
-            <Nav/>  
+
             <div className="container">
                 <Board />
 

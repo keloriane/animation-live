@@ -46,8 +46,8 @@ const Board = () => {
                 <img className="mountain-view" src="./assets/img/mountain.webp" alt=""/>
             </div>
         </div>
-            <button onClick={handleClick}>More</button>
+            <button>More</button>
 </div>
     )
-};
+}
 export default Board;
