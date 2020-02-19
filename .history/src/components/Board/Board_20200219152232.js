@@ -18,19 +18,7 @@ const Board = () => {
         .from(mountain,1,{x:"120%",delay:-.7})
         .to(mountain,5,{scale:1.3,delay:-.8})
 
-
-
-
     })
-
-    const handleClick = (e) => {
-        e.preventDefault();
-        if(tl.reversed()){
-            tl.play()
-        }else{
-            tl.reverse()
-        }
-    }
     return (
 <div>
         <div className="board-animation">
@@ -73,7 +61,7 @@ const Board = () => {
                 <img className="mountain-view" src="./assets/img/mountain.webp" alt=""/>
             </div>
         </div>
-            <button onClick={handleClick}>More</button>
+            <button>More</button>
 </div>
     )
 }

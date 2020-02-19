@@ -3,34 +3,7 @@ import gsap from 'gsap';
 
 
 const Board = () => {
-    const tl = gsap.timeline();
-    
-    useEffect(()=>{
-        const letter = document.querySelectorAll('.letter-title');
-        const titleBackground = document.querySelector('.title');
-        const mountain = document.querySelector('.mountain-view');
-        console.log(titleBackground);
 
-
-        tl
-        .from(titleBackground,1,{x:"-100%", ease:"back.out"})
-        .staggerFrom(letter,.5,{y:100,ease:"back.out( 1.7)"},0.05)
-        .from(mountain,1,{x:"120%",delay:-.7})
-        .to(mountain,5,{scale:1.3,delay:-.8})
-
-
-
-
-    })
-
-    const handleClick = (e) => {
-        e.preventDefault();
-        if(tl.reversed()){
-            tl.play()
-        }else{
-            tl.reverse()
-        }
-    }
     return (
 <div>
         <div className="board-animation">
@@ -73,7 +46,7 @@ const Board = () => {
                 <img className="mountain-view" src="./assets/img/mountain.webp" alt=""/>
             </div>
         </div>
-            <button onClick={handleClick}>More</button>
+            <button>More</button>
 </div>
     )
 }
