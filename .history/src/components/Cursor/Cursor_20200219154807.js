@@ -7,7 +7,7 @@ const Cursor = () => {
         const cursor = document.getElementById('c-cursor');
         const innerCursor = document.getElementById('inner-cursor');
         const enterMouse = () => {
-            gsap.from( [cursor,innerCursor], 4,{ autoAlpha:0 })
+            gsap.to([cursor,innerCursor], 1,{})
         }
         const mouseMove = (e) => {
 

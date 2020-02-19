@@ -16,9 +16,8 @@ $desktop: 1920px;
   justify-content: space-around;
 }
 
-#c-cursor {
+.c-cursor {
   height: rem(18);
-  width: rem(28);
   position: fixed;
   left: rem(-9);
   top: rem(-9);
@@ -30,7 +29,7 @@ $desktop: 1920px;
   transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
   pointer-events: none;
   backface-visibility: hidden;
-  mix-blend-mode: difference;
+  mix-blend-mode: overlay;
   &:before {
     // border: 1px solid hsla(0, 0%, 83%, 1);
     background-color: #ffffff;

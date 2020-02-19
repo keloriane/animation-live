@@ -6,11 +6,20 @@ const Cursor = () => {
         const page = document.getElementById('root');
         const cursor = document.getElementById('c-cursor');
         const innerCursor = document.getElementById('inner-cursor');
-        const enterMouse = () => {
-            gsap.from( [cursor,innerCursor], 4,{ autoAlpha:0 })
-        }
-        const mouseMove = (e) => {
 
+     
+
+
+
+        const enterMouse = () => {
+            gsap.to([cursor,innerCursor], 1,{})
+        }
+
+
+
+
+        const mouseMove = (e) => {
+            console.log(e.clientX , e.clientY)
             
             const mousePos = {
                 x: e.clientX,
