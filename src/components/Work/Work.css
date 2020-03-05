@@ -1,0 +1,101 @@
+.works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.works .folio {
+  width: 100%;
+  max-width: 1280px;
+  height: 690px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.works .folio .work--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.works .folio .work--container .inner--left--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 546px;
+}
+
+.works .folio .work--container .inner--left--container .button-nav {
+  border: none;
+}
+
+.works .folio .work--container .inner--left--container .button-nav:hover {
+  border-bottom: 1px solid #131636;
+}
+
+.works .folio .work--container .inner--left--container .work--navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 193px;
+  height: 55px;
+}
+
+.works .folio .work--container .inner--left--container .breadcrumbs p {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.works .folio .work--container .inner--right--container .slider--work .image--wrapper {
+  overflow: hidden;
+  position: relative;
+  background-color: #131636;
+}
+
+.works .folio .work--container .inner--right--container .slider--work .image--wrapper .details--button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.works .folio .work--container .inner--right--container .slider--work .image--wrapper .details--button button {
+  width: 222px;
+  height: 71px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Work.css.map */

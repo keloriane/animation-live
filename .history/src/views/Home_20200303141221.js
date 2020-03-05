@@ -1,0 +1,38 @@
+import React,{useEffect} from 'react';
+import "./assets/Home.scss";
+import gsap from 'gsap';
+import Board from './../components/Board/Board';
+
+
+const Home = () => {
+
+useEffect(()=> {
+    const imageWrapper = document.getElementsByClassName('umbrella');
+    const textContainer = document.getElementsByClassName('text-container');
+
+
+    const sectionTL = gsap.timeline();
+    sectionTL
+        .from(imageWrapper,1,{ y:"100%", ease:"power0.back" })
+        .from(textContainer,1,{ opacity:0, ease:"power0.back" })
+})
+
+    return (
+        <div id="main-home">
+
+            
+            
+
+            <div className="container">
+
+                <Board />
+
+            </div>
+
+            
+            
+        </div>
+    )
+}
+
+export default Home

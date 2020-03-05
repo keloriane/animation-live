@@ -1,0 +1,130 @@
+#o-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#c-cursor {
+  height: 1.25rem;
+  position: fixed;
+  left: -0.5625rem;
+  top: -0.5625rem;
+  z-index: 9;
+  width: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  mix-blend-mode: difference;
+}
+
+#c-cursor:before {
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 100%;
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  mix-blend-mode: difference;
+}
+
+.is-hover #c-cursor:before {
+  mix-blend-mode: difference;
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+  -webkit-transition: all 0.3s ease-in-out cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 0.3s ease-in-out cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+button {
+  height: 40px;
+  width: 60px;
+}
+
+#box-css {
+  -webkit-animation: slidein 20s infinite;
+          animation: slidein 20s infinite;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px);
+  }
+  to {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+  }
+}
+
+@keyframes slidein {
+  from {
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px);
+  }
+  to {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+  }
+}
+
+#inner-cursor {
+  height: 10px;
+  position: fixed;
+  z-index: 10;
+  width: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: -0.25rem;
+  top: -0.25rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FD904A;
+  border-radius: 100%;
+  pointer-events: none;
+}
+
+#inner-cursor:before {
+  background: #ff4444;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 10;
+  top: 10;
+}
+
+.is-hover #inner-cursor:before {
+  border: 1px solid #9100ff;
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+}
+/*# sourceMappingURL=Cursor.css.map */

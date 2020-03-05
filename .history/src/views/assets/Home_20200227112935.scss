@@ -1,0 +1,166 @@
+.title-container{
+    overflow: hidden;
+}
+
+.title{
+    // display: flex;
+
+    // width: 300px;
+    // overflow: hidden;
+    // z-index: 2;
+    // margin-left: 25px;
+    transform: translate(0px);
+background: #131636;
+height: 88px;
+width: 360px;
+height: 75px;
+color: white;
+display: flex;
+align-items: center;
+
+font-size: 50px;
+
+overflow: hidden;
+
+    
+    .square{
+        width: 97px;
+
+
+        
+            background-color: #131636;
+        .typo{
+            overflow: hidden;
+            h3{
+                font-style: normal;
+                
+                font-size: 75px;
+                line-height: 99px;
+                text-align: center;
+                color: #ffffff;
+                &.dot{
+                    color: #FD904A;
+                }
+            }
+        }
+
+    }
+
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: #FD904A;
+    border-radius: 100%;
+    position: absolute;
+bottom: 20px;
+right: 5;
+right: 48px;
+}
+
+.text-letter{
+    display: flex;
+}
+.image-container{
+    width: 700px;
+
+    height: 750px;
+    
+    overflow: hidden;
+    
+    top: 70px;
+    
+    right: 0;
+    
+    display: flex;
+    
+    justify-content: center;
+
+}
+.board-animation{
+    position: relative;
+    width: 1280px;
+    height: 100%;
+    margin: auto auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+@media only screen and (max-width: 1125px){
+    .board-animation{
+        justify-content: center;
+    }
+}
+.mountain-view{
+    max-width: 521px;
+
+
+}
+
+
+.chars{
+    margin: 2px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.wrapper{
+    overflow: hidden;
+}
+.main-home{
+    width: 100vw;
+    height:100%;
+}
+
+.title-background{
+
+
+    height: 106px;
+    width: 510px;
+}
+
+.about{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+
+    .text-container{
+        width: 100%;
+        max-width: 400px;
+
+    }
+    .c-image{
+        overflow: hidden;
+        img{
+            height: 500px;
+        }
+    }
+}
+.lastName{
+    margin-left: 100px;
+}
+
+.functions{
+
+    margin-top: 50px;
+}
+.skills-name{
+
+    font-weight:200;
+    font-size: 24px;
+    margin-left: 100px;
+
+}
+.design{
+    margin-left: 50px;
+}

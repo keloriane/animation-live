@@ -1,0 +1,34 @@
+.wrapper-about{
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    justify-content: center;
+    .text-container{
+        max-width: 407px ;
+        p{
+            font-family: Nunito Sans;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 30px;   
+            color: #131636;
+
+
+        }
+    }
+    .image-nav-container{
+        .image-nav{
+            .main-nav{
+                height: 405px;
+                overflow: hidden;
+                position: relative;
+                .navigation{
+                    width: 280px;
+                    height: 69px;
+                    position: absolute;
+                    background: pink;
+                }
+            }
+        }
+    }
+}

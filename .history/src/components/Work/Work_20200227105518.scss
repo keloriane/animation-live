@@ -1,0 +1,25 @@
+.works{
+    display: flex;
+    align-items: center;;
+    .folio{
+        width: 1280px;
+        background-color: pink;
+        height: 690px;
+        margin: auto auto;
+        display: flex;
+        
+      
+        .work--container{
+            display: flex;
+            align-items: center;
+            .inner--left--container{
+                
+            }
+            .inner--right--container{
+    
+            }
+            
+        }
+    }
+
+}
