@@ -9,12 +9,12 @@ const Nav = () => {
         
         <nav>
             <ul className="nav-container">
-       
-                <li> <Link to="/" >Home</Link><div className="dot"></div></li>
+            <Router>
+                <li> <Link >Home</Link><div className="dot"></div></li>
                 <li> <Link to="/about" >About</Link><div className="dot"></div></li>
                 <li> <Link to="/work" >Work</Link><div className="dot"></div></li>
                 <li> <a href="#">Contact</a><div className="dot"></div></li>
-         
+            </Router>
 
             </ul>
         </nav>

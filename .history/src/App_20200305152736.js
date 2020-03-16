@@ -11,6 +11,8 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import About from './components/About/About';
 
 function App() {
+    
+
   return (
     <div className="App">
       <Cursor/>
@@ -26,7 +28,10 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
+
         </Switch>
+
+   
       </Router>
     </div>
   );
